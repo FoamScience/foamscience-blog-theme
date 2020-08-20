@@ -3,22 +3,24 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 辣椒の酱
-subtitle: 尚未执佩剑，转眼即江湖
-description: 生活坏到一定程度就会好起来，因为它无法更坏
-keywords: java,elasticsearch,设计模式,sql
-author: 辣椒の酱
-language: zh-CN
+title: FoamScience
+subtitle: Doing CFD with OpenFOAM
+description: OpenFOAM-focused CFD Blog
+keywords: cpp,openfoam,cfd,fvm,numerical simulation
+author: Elwardi
+language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://removeif.github.io
+url: https://foamscience.github.io
 #root: /remove.io/
 root: /
 # 可选 permalink: abbrlink 短链接模式
 # permalink: :title.html #文章的url 如 http://localhost:4000/theme/博客源码分享.html 格式   :year/:month/:day/:title/
-permalink: posts/:abbrlink/ #文章的永久链接 或者 permalink: posts/:abbrlink.html 如：http://localhost:4000/post/abaf7e89.html
+#permalink: /:title/
+permalink: :category/:post_title/
+#permalink: posts/:abbrlink/ #文章的永久链接 或者 permalink: posts/:abbrlink.html 如：http://localhost:4000/post/abaf7e89.html
 permalink_defaults:
 
 # abbrlink config
